@@ -39,7 +39,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ master ]
   schedule:
-    - cron: '45 * * * *'
+    - cron: '12 40 * * 2'
   workflow_dispatch:
 
 permissions:
